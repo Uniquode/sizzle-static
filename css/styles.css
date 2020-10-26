@@ -1,0 +1,29 @@
+@import url(normalize.css);
+body, html {
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+.bg-image {
+  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("../images/gina-lin-m27OTMegUyA-unsplash.jpg"), url("../images/brooke-lark-08bOYnH_r_E-unsplash.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
+  position: relative; }
+
+.bg-text {
+  position: absolute;
+  top: 10vh;
+  right: 20vh;
+  padding: 5rem;
+  opacity: 100%;
+  color: white;
+  font: 22px Arial, sans-serif;
+  text-align: center;
+  z-index: 99; }
+
+/*# sourceMappingURL=styles.css.map */
